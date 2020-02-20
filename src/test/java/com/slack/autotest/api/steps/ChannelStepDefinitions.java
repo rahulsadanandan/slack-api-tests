@@ -21,6 +21,7 @@ public class ChannelStepDefinitions {
 	// archived
 	void archiveAllMatchingChannels(String channelName) {
 		Response listChannelResponse = services.channelService().listAllChannels();
+		System.out.println(listChannelResponse.asString());
 		List<String> allChannelNames = listChannelResponse.jsonPath().getList("channels.name");
 		List<String> allChannelIDs = listChannelResponse.jsonPath().getList("channels.id");
 		for (int i = 0; i < allChannelNames.size(); i++) {
