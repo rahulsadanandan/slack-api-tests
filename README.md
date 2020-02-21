@@ -26,7 +26,7 @@ Can be changed in file autotestConfig.properties under src/test/resources.
 Api token has to be generated and changed.
 ```
 baseUrl=https://slack.com/api
-token=xoxp-950414119825-960538021664-947761313714-6a774fe07eadc0dd2397b0f066c1c622
+token=xxx-xxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxx
 ```
 
 ## Usage
@@ -37,4 +37,4 @@ mvn clean test
 
 ## Reports
 
-Reports can ve viewed in the directory -> target/cucumberReports/index.html
+Basic reports can ve viewed in the directory -> target/cucumberReports/index.html
